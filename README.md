@@ -16,6 +16,9 @@ Note: Before installation make sure that Oracle VM Virtual Box is already remove
 
 #Error checking TLS connection: Host is not running
 Solution: 
+
 `$ docker-machine start default`
+
 `$ docker-machine env default`
+
 `$ eval $(docker-machine env default)`
