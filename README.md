@@ -50,9 +50,9 @@ exmaple : `docker run --name test -it debian`
 
 usage: All the containers running on your machine
 
-`docker search image-name'
+`docker search image-name`
 
-`docker pull image-name:tag-name'
+`docker pull image-name:tag-name`
 
 ## remove container
 `docker stop container-name`
@@ -60,7 +60,7 @@ usage: All the containers running on your machine
 `docker rm container-name'
 
 # CUDA
-`nvdia-sm' can show memory usage, GPU utilization and temperature of GPU
+`nvdia-sm` can show memory usage, GPU utilization and temperature of GPU
 
 ## If you don't want to stop the container in linux OS, use ctrl + pq to exit the container
 
