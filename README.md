@@ -24,8 +24,17 @@ Note: Before installation make sure that Oracle VM Virtual Box is already remove
 `$ eval $(docker-machine env default)`
 
 ## Docker Commands
-`docker build -t`
-short for --tag
+`docker build -t tagname .`
+short for --tag 
+
+## Docker File Commands
+1. FROM <Repository>[<:tag>]
+   FROM <Repository>[<@digest>]
+purpose of FROM instruction is to specify base image
+FROM instruction must be the first in a Dockerfile
+The argument must define a repository but a tag is optional
+Argument might refer to a digest, to specify the image
+
 
 ## Running Docker using ConEmu(Cmder)
 1. First you need to click on "create new console" then choose "set up tasks"
@@ -35,3 +44,8 @@ short for --tag
 5. Copy the target address to the command section 
 6. Press save Settings
 7. **Note:** Run the cmder as administrator then from the create new console select the defined task 
+
+
+
+## References
+https://www.youtube.com/watch?v=lh2vRz93mKE&list=PLyjwSz9fDYVUhx-l6Zfss4J6Ybb02LRL5
