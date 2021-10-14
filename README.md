@@ -38,13 +38,39 @@ short for --tag
 - Argument might refer to a digest, to specify the image
 
 ## How to run a container
-`docker run  --name (name of the image) -it (name of the image)`
+`docker run  --name (name of the container) -it (name of the image)`
 
 exmaple : `docker run --name test -it debian`
 
 --name: Assign a name to the container
 
 -it: The -it instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container.
+
+`docker ps`
+
+usage: All the containers running on your machine
+
+`docker search image-name'
+
+`docker pull image-name:tag-name'
+
+## remove container
+`docker stop container-name`
+
+`docker rm container-name'
+
+# CUDA
+`nvdia-sm' can show memory usage, GPU utilization and temperature of GPU
+
+## If you don't want to stop the container in linux OS, use ctrl + pq to exit the container
+
+
+# VIM editor
+1. :i : insert
+2. :x : save file & exit 
+
+
+
 
 ## Running Docker using ConEmu(Cmder)
 1. First you need to click on "create new console" then choose "set up tasks"
