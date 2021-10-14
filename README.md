@@ -79,7 +79,7 @@ usage: All the containers running on your machine
 4. Copy the the address from start in to the task parameter
 5. Copy the target address to the command section 
 6. Press save Settings
-7. **Note:** Run the cmder as administrator then from the create new console select the defined task 
+7. **Note:** Run the cmder as **administrator** then from the "create new console" select the defined task 
 
 
 
