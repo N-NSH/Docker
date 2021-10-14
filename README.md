@@ -22,3 +22,16 @@ Note: Before installation make sure that Oracle VM Virtual Box is already remove
 `$ docker-machine env default`
 
 `$ eval $(docker-machine env default)`
+
+## Docker Commands
+`docker build -t`
+short for --tag
+
+## Running Docker using ConEmu(Cmder)
+1. First you need to click on "create new console" then choose "set up tasks"
+2. Under predefined tasks click on the +
+3. Right click on the Docker Terminal shortcut and select the properties
+4. Copy the the address from start in to the task parameter
+5. Copy the target address to the command section 
+6. Press save Settings
+7. **Note:** Run the cmder as administrator then from the create new console select the defined task 
