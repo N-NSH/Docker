@@ -39,8 +39,11 @@ short for --tag
 
 ## How to run a container
 `docker run  --name (name of the image) -it (name of the image)`
+
 exmaple : `docker run --name test -it debian`
+
 --name: Assign a name to the container
+
 -it: The -it instructs Docker to allocate a pseudo-TTY connected to the container’s stdin; creating an interactive bash shell in the container.
 
 ## Running Docker using ConEmu(Cmder)
