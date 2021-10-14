@@ -28,8 +28,8 @@ Note: Before installation make sure that Oracle VM Virtual Box is already remove
 short for --tag 
 
 ## Docker File Commands
-1. FROM <Repository>[<:tag>]
-   FROM <Repository>[<@digest>]
+FROM <Repository>[<:tag>]
+FROM <Repository>[<@digest>]
 purpose of FROM instruction is to specify base image
 FROM instruction must be the first in a Dockerfile
 The argument must define a repository but a tag is optional
