@@ -85,5 +85,3 @@ usage: All the containers running on your machine
 # Autor
 Nooshin Noshiri
 
-## References
-https://www.youtube.com/watch?v=lh2vRz93mKE&list=PLyjwSz9fDYVUhx-l6Zfss4J6Ybb02LRL5
