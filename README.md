@@ -82,6 +82,6 @@ usage: All the containers running on your machine
 7. **Note:** Run the cmder as **administrator** then from the "create new console" select the defined task 
 
 
-# Autor
+# Author
 Nooshin Noshiri
 
